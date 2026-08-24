@@ -70,6 +70,10 @@ th {
   color: #394661;
 }
 
+.no-class td {
+  background: #f7eeee;
+}
+
 td:first-child,
 td:nth-child(2) {
   color: #394661;
