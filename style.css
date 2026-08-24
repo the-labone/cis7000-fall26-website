@@ -69,13 +69,13 @@ table {
 
 .schedule-table th:nth-child(2),
 .schedule-table td:nth-child(2) {
-  width: 170px;
+  width: 125px;
   white-space: nowrap;
 }
 
 .schedule-table th:nth-child(3),
 .schedule-table td:nth-child(3) {
-  width: 330px;
+  width: 430px;
 }
 
 th,
