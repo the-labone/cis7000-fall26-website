@@ -74,6 +74,10 @@ th {
   background: #f7eeee;
 }
 
+.deadline td {
+  background: #f7f4ea;
+}
+
 td:first-child,
 td:nth-child(2) {
   color: #394661;
