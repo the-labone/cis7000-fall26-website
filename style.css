@@ -57,6 +57,27 @@ table {
   border-collapse: collapse;
 }
 
+.schedule-table {
+  table-layout: fixed;
+  min-width: 1080px;
+}
+
+.schedule-table th:first-child,
+.schedule-table td:first-child {
+  width: 60px;
+}
+
+.schedule-table th:nth-child(2),
+.schedule-table td:nth-child(2) {
+  width: 170px;
+  white-space: nowrap;
+}
+
+.schedule-table th:nth-child(3),
+.schedule-table td:nth-child(3) {
+  width: 330px;
+}
+
 th,
 td {
   padding: 9px 10px;
