@@ -27,7 +27,7 @@ a:hover {
   margin-bottom: 30px;
   background:
     linear-gradient(90deg, rgba(13, 18, 30, 0.78), rgba(13, 18, 30, 0.36), rgba(13, 18, 30, 0.1)),
-    url("assets/hero-multimodal-ai.png") center / cover no-repeat;
+    url("assets/hero-multimodal-ai.png?v=pennshield") center / cover no-repeat;
   border-radius: 4px;
   display: flex;
   align-items: flex-end;
