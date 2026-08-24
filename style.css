@@ -22,11 +22,37 @@ a:hover {
   padding: 32px 28px 60px;
 }
 
+.hero {
+  min-height: 330px;
+  margin-bottom: 30px;
+  background:
+    linear-gradient(90deg, rgba(13, 18, 30, 0.78), rgba(13, 18, 30, 0.36), rgba(13, 18, 30, 0.1)),
+    url("assets/hero-multimodal-ai.png") center / cover no-repeat;
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-content {
+  max-width: 540px;
+  padding: 34px 36px;
+}
+
 h1 {
   margin: 0 0 18px;
   color: #394661;
   font-size: 34px;
   line-height: 1.15;
+}
+
+.hero h1 {
+  color: #ffffff;
+  font-size: 42px;
+}
+
+.hero p {
+  color: #ffffff;
+  font-size: 18px;
 }
 
 p {
@@ -108,6 +134,23 @@ td:nth-child(2) {
 @media (max-width: 700px) {
   #centerpanelfull {
     padding: 22px 16px 44px;
+  }
+
+  .hero {
+    min-height: 280px;
+    background-position: center;
+  }
+
+  .hero-content {
+    padding: 24px 22px;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .hero p {
+    font-size: 16px;
   }
 
   table {
